@@ -1,7 +1,10 @@
-const h2 = document.createElement("h2");
-h2.textContent = "This content added by JavaScript";
-document.querySelector("body").appendChild(h2);
+/*const h1 = document.createElement("h1");
+h1.textContent = "LYSSIE WRIGHT";
+document.querySelector("body").appendChild(h1);
 
-const h3 = document.createElement("h3");
-h3.textContent = "Boom Shaka Laka";
-document.querySelector("body").appendChild(h3);
+const h2 = document.createElement("h2");
+h2.textContent = "(Pronounced LI-SEE)";
+document.querySelector("body").appendChild(h2);*/
+
+
+
