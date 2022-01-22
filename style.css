@@ -13,9 +13,9 @@ body{
 
 h1 {
     text-align: center;
-    font-size: 2cm;
+    font-size: 4cm;
     color: white;
-    margin: 0;
+    margin: auto;
     padding: 10px;
 }
 
@@ -24,6 +24,7 @@ h2 {
     font-size: small;
     font-style: italic;
     color: white;
+    margin:0;
 }
 
 nav{
@@ -49,17 +50,16 @@ header{
 
 #contents{
     display: block;
-    position: relative;
     width: 90%;
     margin: auto;
+    position: relative;
 }
 
-#image {
-    position: absolute;
-    width: 48vw;
-    height: auto; 
+#image { 
     margin-top: 10px;
-    margin-left: 46vw;
+    position: absolute;
+    width: 50%;
+    margin-left: 45vw
 }
 
 #Education{
@@ -69,7 +69,7 @@ header{
     text-align: left;
     margin-top: 10px;
     padding: 10px;
-    width: 38vw;
+    width: 46%;
 
 }
 
@@ -78,9 +78,10 @@ header{
     background-color: white;
     color: black;
     text-align: left;
-    margin-top: 330px;
+    margin-top: 300px;
     padding: 10px;
-    width: 38vw;
+    width: 46%;
+
 }
 
 #Work-Experience-Details{
@@ -88,10 +89,11 @@ header{
     background-color: white;
     color: black;
     text-align: left;
-    margin-top: 330px;
-    padding: 10px;
-    width: 14cm;
-    margin-left: 42vw;
+    margin-top: 327px;
+    font-size: smaller;    
+    width: 35%;
+    margin-left: 11vw;
+
 }
 
 #hobbies{
@@ -106,3 +108,10 @@ header{
 }
 
 
+h3{
+    margin: 0;
+}
+
+span {
+    text-align: right;
+}
