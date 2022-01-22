@@ -13,7 +13,7 @@ body{
 
 h1 {
     text-align: center;
-    font-size: xx-large;
+    font-size: 2cm;
     color: white;
     margin: 0;
     padding: 10px;
@@ -29,6 +29,7 @@ h2 {
 nav{
     text-align: center;
     color: darkslategrey;
+    font-size: 1cm;
 }
 
 nav a{
@@ -46,36 +47,62 @@ header{
     margin: auto;
 }
 
-.contents{
+#contents{
     display: block;
-    background-color: slategray;
     position: relative;
     width: 90%;
     margin: auto;
-    border: solid;
-    border-color: white;
-    border-width:thick;
-    border-top:none;    
 }
 
-img{
-    width: 75%;
-    height: auto;
-    margin-left: 250px;
-}
-
-[alt="Murray State Logo"]{
+#image {
     position: absolute;
-    width: 20%;
-    top: 50px;
+    width: 48vw;
+    height: auto; 
+    margin-top: 10px;
+    margin-left: 46vw;
 }
 
-.EDUCATION{
+#Education{
     position: absolute;
-    bottom: 20px;
-    right: 20px;
     background-color: white;
     color: black;
-    padding-left: 20px;
+    text-align: left;
+    margin-top: 10px;
+    padding: 10px;
+    width: 38vw;
 
 }
+
+#Work-Experience{
+    position: absolute;
+    background-color: white;
+    color: black;
+    text-align: left;
+    margin-top: 330px;
+    padding: 10px;
+    width: 38vw;
+}
+
+#Work-Experience-Details{
+    position: absolute;
+    background-color: white;
+    color: black;
+    text-align: left;
+    margin-top: 330px;
+    padding: 10px;
+    width: 14cm;
+    margin-left: 42vw;
+}
+
+#hobbies{
+    position: absolute;
+    background-color: white;
+    color: black;
+    text-align: left;
+    margin-top: 500px;
+    padding: 10px;
+    width: 14cm;
+    margin-left: 490px;
+}
+
+
