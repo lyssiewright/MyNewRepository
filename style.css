@@ -17,6 +17,7 @@ h1 {
     color: white;
     margin: auto;
     padding: 10px;
+    line-height: 100px;
 }
 
 h2 {
@@ -25,6 +26,7 @@ h2 {
     font-style: italic;
     color: white;
     margin:0;
+
 }
 
 nav{
@@ -84,27 +86,17 @@ header{
 
 }
 
-#Work-Experience-Details{
-    position: absolute;
-    background-color: white;
-    color: black;
-    text-align: left;
-    margin-top: 327px;
-    font-size: smaller;    
-    width: 35%;
-    margin-left: 11vw;
-
-}
 
 #hobbies{
     position: absolute;
     background-color: white;
     color: black;
     text-align: left;
-    margin-top: 500px;
+    margin-top: 425px;
     padding: 10px;
-    width: 14cm;
-    margin-left: 490px;
+    width: 46%;
+    margin-left: 1px;
+    font-size: 26px;
 }
 
 
@@ -112,6 +104,19 @@ h3{
     margin: 0;
 }
 
-span {
-    text-align: right;
+
+.tada{
+    margin-top: 400px;
+    position: absolute;
+    width: 60%;
+    margin-left: 40vw
 }
+
+#banner{
+    float:left;
+    width: 100%;
+    background-color: black;
+    text-align: center;
+    margin-top: 800px;
+    color: white;
+  }
